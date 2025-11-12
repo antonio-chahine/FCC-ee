@@ -20,8 +20,17 @@ The primary goal is to measure the $H \to WW$ decay in various sensitive final s
 1. **ZH Production Cross-Section**:  
    The total $ZH$ production cross-section is approximately 200 pb at 240 GeV and 120 pb at 365 GeV. Using the integrated luminosities of 10.8 ab⁻¹ and 3 ab⁻¹, calculate the total number of $ZH$ bosons produced.
 
+   200 * (10.8 * 10^6) = 2160000000.0 
+   120 * (3 * 10^6) = 360000000
+
 2. **Background Events**:  
    Using cross-sections for $WW$ and $ZZ$ processes from [this resource](https://submit.mit.edu/~jaeyserm/fcc/samples/ee_FastSim_winter2023_IDEA.html) (look for `p8_ee_WW` and `p8_ee_ZZ`), calculate the number of expected background events. Compare these to the number of signal events.
+
+   10.8 ab
+   WW --> 2785536.0
+   ZZ --> 14677092.0
+
+   sum = 17462628.0 --> signal events is much greater.
 
 3. **Feynman Diagrams**:  
    Draw the Feynman diagrams for the signal ($H \to WW^*$) and key backgrounds ($WW$, $ZZ$, and $Z/\gamma$). Identify key differences to guide event selection and background discrimination.
